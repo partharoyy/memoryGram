@@ -43,7 +43,7 @@ label input{
 }
 label{
   display: block;
-  width: 250px;
+  width: 200px;
   height: 42px;
   border: 1px solid var(--primary);
   border-radius: 20px;
@@ -51,7 +51,7 @@ label{
   line-height: 44px;
   color: rgb(228, 119, 119);
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Handlee', cursive;
 }
 
