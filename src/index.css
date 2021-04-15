@@ -43,15 +43,16 @@ label input{
 }
 label{
   display: block;
-  width: 300px;
-  height: 40px;
+  width: 250px;
+  height: 42px;
   border: 1px solid var(--primary);
   border-radius: 20px;
-  margin: 10px auto;
-  line-height: 38px;
+  margin: 12px auto;
+  line-height: 44px;
   color: rgb(228, 119, 119);
   font-weight: bold;
-  font-size: 24px;
+  font-size: 30px;
+  font-family: 'Handlee', cursive;
 }
 
 label:hover{
@@ -87,6 +88,7 @@ label:hover{
   /* padding controls height, will always be perfectly square regardless of width */
   position: relative;
   opacity: 0.8;
+  border-radius: 50%;
 }
 .img-wrap img{
   min-width: 100%;
@@ -113,4 +115,5 @@ label:hover{
   margin: 60px auto;
   box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
   border: 3px solid white;
+  border-radius: 20px;
 }
